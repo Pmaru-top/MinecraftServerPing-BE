@@ -20,8 +20,6 @@
 
 ***
 
-MinecraftServerPing-BE 需要 [alibaba/fastjson](https://github.com/alibaba/fastjson) 运作
-
 如何使用?
 
 转到 [Main](https://github.com/MX233/MinecraftServerPing-BE/blob/main/src/tax/cute/minecraftserverpingbe/Main.java) 查看示例
