@@ -20,8 +20,12 @@
 
 ***
 
+你可以下载[Releases](https://github.com/MX233/MinecraftServerPing-BE/releases) 里打包成jar的lib导入使用
+
 如何使用?
 
 转到 [Main](https://github.com/MX233/MinecraftServerPing-BE/blob/main/src/tax/cute/minecraftserverpingbe/Main.java) 查看示例
 
 感谢 [mirai-bedrock-motd](https://github.com/zixuan2020/mirai-bedrock-motd/blob/master/src/main/java/top/zixuan007/BedrockSocket.java) 提供的数据包
+
+get 
