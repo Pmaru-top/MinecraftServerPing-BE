@@ -22,6 +22,8 @@ can obtain the following information:
 
 ***
 
+You can download and import the library packaged as jar in [Releases](https://github.com/MX233/MinecraftServerPing-BE/releases)
+
 How to use it?
 
 Go to [Main](https://github.com/MX233/MinecraftServerPing-BE/blob/main/src/tax/cute/minecraftserverpingbe/Main.java) to view the example
