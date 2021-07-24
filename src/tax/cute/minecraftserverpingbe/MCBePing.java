@@ -12,13 +12,13 @@ public class MCBePing {
     private String version;
     private int online_players;
     private int max_players;
-    private String server_core;
+    private String type;
     private String default_mode;
     private String world_name;
     private int delay;
 
     public MCBePing(
-            String description,int protocol_num,String version,int online_players,int max_players,String server_core,
+            String description,int protocol_num,String version,int online_players,int max_players,String type,
             String default_mode,String world_name,int delay
     ) {
         this.description = description;
@@ -26,7 +26,7 @@ public class MCBePing {
         this.version = version;
         this.online_players = online_players;
         this.max_players = max_players;
-        this.server_core = server_core;
+        this.type = type;
         this.default_mode = default_mode;
         this.world_name = world_name;
         this.delay = delay;
@@ -79,7 +79,7 @@ public class MCBePing {
         String version = null;
         int online_players = -1;
         int max_players = -1;
-        String server_core;
+        String type;
         String default_mode = null;
         String world_name = null;
 
@@ -105,16 +105,16 @@ public class MCBePing {
             default_mode = args[8];
 
         if (args.length == 10) {
-            server_core = "nukkitx";
+            type = "nukkitx";
         } else if (args.length == 13) {
-            server_core = "bedrock";
+            type = "bedrock";
             world_name = args[7];
         } else {
-            server_core = "unknown";
+            type = "unknown";
         }
 
         return new MCBePing(
-                description,protocol_num,version,online_players,max_players,server_core,
+                description,protocol_num,version,online_players,max_players,type,
                 default_mode,world_name,delay
                 );
     }
@@ -139,8 +139,8 @@ public class MCBePing {
         return this.max_players;
     }
 
-    public String getServer_core() {
-        return this.server_core;
+    public String getType() {
+        return this.type;
     }
 
     public String getDefault_mode() {

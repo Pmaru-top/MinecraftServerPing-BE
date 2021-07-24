@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Version:" + String.valueOf(ping.getVersion()));
         System.out.println("ProtocolNum:" + ping.getProtocol_num());
         System.out.println("Players:" + ping.getOnline_players() + "/" + ping.getMax_players());
-        System.out.println("ServerCore:" + ping.getServer_core());
+        System.out.println("Type:" + ping.getType());
         System.out.println("DefaultMode:" + String.valueOf(ping.getDefault_mode()));
         System.out.println("WorldName(Only BDS server available):" + String.valueOf(ping.getWorld_name()));
     }
