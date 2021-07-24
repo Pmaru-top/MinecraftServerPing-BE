@@ -22,8 +22,6 @@ can obtain the following information:
 
 ***
 
-MinecraftServerPing-BE requires [alibaba/fastjson](https://github.com/alibaba/fastjson) to function
-
 How to use it?
 
 Go to [Main](https://github.com/MX233/MinecraftServerPing-BE/blob/main/src/tax/cute/minecraftserverpingbe/Main.java) to view the example
